@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter:wght@300;400;500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container h3{
+    color: #fff;
+    text-align: center;
+    margin: 2px;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+
+.tasbih-app{
+    background-color: black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+    border: 10px solid green;
+
+}
+.tasbih-app h5{
+    color: #fff;
+    font-size: small;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 50px;
+
+}
+.tasbih-app i{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+}
+.tasbih-app .sides{
+    padding: 10px 20px;
+    text-align: center;
+}
+.tasbih-app select{
+    width: 100%;
+    padding: 10px;
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+    border: 5px solid rgb(39, 183, 39);
+}
+
+form{
+    padding: 10px 30px;
+    text-align: center;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    text-align: right;
+    border: 5px solid rgb(39, 183, 39);
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.felex-btn{
+    padding: 10px;
+    position: relative;
+    display: flex;
+}
+
+ button{
+    background-color: rgb(39, 183, 39);;
+    padding: 20px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+button.number{
+    padding: 15px;
+    border-radius: 50%;
+    
+}
+
+
+button.reset{
+    
+    border-radius: 50;
+    padding: 10px;
+    padding-left: 5px;
+    
+}
+
+button.conter{
+    margin: 0 15px;
+    padding: 25px  10px;
+    border-radius: 50%;
+    
+}
+.center{
+    padding: 10px 50px;
+    text-align: center;
+    
+}
+
+.center img{
+    width: 50px;
+    margin: 6px;
+    
+
+    
+}
